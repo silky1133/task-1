@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+     background: linear-gradient(135deg, hsl(33, 98%, 53%),white, white);
+}
+
+
+.statistics-header, .statistics {
+    
+    color: black;
+    margin-left: 20px;
+    
+}
+.statistics{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+ .statistics h1 {
+    font-size: 36px;
+    background-color: black; 
+    color: white; 
+    padding: 0px 20px; 
+    display: inline-block; 
+    margin: 0%;
+   
+}
+.statistics-header h1{
+    font-size: 16px;
+    background-color: black; 
+    color: white; 
+    padding: 0px 20px; 
+    display: inline-block; 
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+
+.statistics p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.item {
+    flex: 1; 
+    border: 1px solid black; 
+    padding: 20px; 
+    color: hsl(51, 100%, 50%);
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item span {
+    font-size: 50px;
+    font-weight: bolder;
+}
+#item2{
+    background-color: black;
+}
+.item p{
+    color: black;
+}
